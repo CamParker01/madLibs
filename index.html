@@ -4,32 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="./app.js"></script>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+    
+    <div class="grid-container">  <h1>Pictures</h1> 
+    <label for="#">Here is the label</label><p>
+    Fill out these questions to generate your own scary mad lib campfire story!<br>
+        (Hint: a Verb is an action. An adverb usually ends in “ly” and describes an action <br>
+        (like slowly). A noun is a person/place/thing. An adjective describes a person/place/thing.)
+    </p>
  
-    <h1>Zoo Trip</h1> 
- 
- 
-    <p> Say '___,' the photographer said as the camera flashed! ___ and I had gone to ___ to get our photos taken today. The first photo we really wanted was a picture of us dressed as ___ pretending to be a ___. When we saw the proofs of it, I was a bit ___ because it looked different than in my head. (I hadn't imagined so many ___ behind us.) However, the second photo was exactly what I wanted. We both looked like test wearing ____ and ____exactly what I had in mind!</p>
-    <div class="grid-container">  
-    <label for="#"></label>
-        <input type="text" placeholder="test">
-        <input type="text" placeholder="test">
-        <input type="text" placeholder="test">
-        <input type="text" placeholder="test">
-        <input type="text" placeholder="test">
-        <input type="text" placeholder="test">
-        <input type="text" placeholder="test">
-        <input type="text" placeholder="test">
-        <input type="text" placeholder="test">
-        <input type="text" placeholder="test">
+        <input type="text" placeholder="noun" id="Noun1">
+        <input type="text" placeholder="noun" id="Noun2">
+        <input type="text" placeholder="name" id="Name">
+        <input type="text" placeholder="verb" id="Verb">
+        <input type="text" placeholder="noun" id="Noun3">
+        <input type="text" placeholder="animals" id="Animals">
+        <input type="text" placeholder="emotion" id="Emotion">
+        <input type="text" placeholder="noun" id="Noun4">
+         <button type="button" onclick="createParagraph()">Submit!</button>
     </div>
-        
+        <div id="answer"></div>
  
  
  
  
-    <button type="button">Submit!</button>
+   
+    
 </body>
 </html>

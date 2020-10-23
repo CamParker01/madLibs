@@ -14,17 +14,34 @@ label {
   }
 
 h1{
-    color: orange;
+    color: pink;
     }
 
 
 p{
     max-width: 20vw;
 }
-
+/* 
 .grid-container {
     display: flex;
     flex-direction: column;
-    width: 30;
+    width: 300px;
+
+
+} */
+/* 
+div{
+    padding-top: 0em;
+    position: absolute;
+  right:700px;
+} */
+
+ 
+.grid-container{
+    display: grid;
+    justify-items: center;
+    width: 300px;
+    margin: auto;
 }
+
 
